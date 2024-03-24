@@ -7,4 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="SayaTubeVideo_1302220126.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>SayaTubeVideo_1302220126.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="SayaTubeVideo_1302220126.cs">
+      <DependentUpon>SayaTubeVideo_1302220126.cshtml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
